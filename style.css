@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+img {
+  display: block;
+}
+li {
+  list-style: none;
+}
+.faq {
+  max-width: 50rem;
+  margin:5vh auto;
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.answer {
+  background:#fafafa;
+  padding:5vh 2vw;
+}
+.title {
+  color:#fff;
+  background:coral;
+  padding:2vh 1vw;
+}
+.txt {
+  transition: all 0.2s linear;
+  display: none;
+}
+.show .txt {
+  display: block;
+}
